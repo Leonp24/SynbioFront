@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SynBio - Belanja Buah & Sayur</title>
+    <title>Halaman Produk</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
@@ -33,43 +33,38 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link" aria-current="page" href="./index.html">Beranda</a>
+                    <a class="nav-link" aria-current="page" href="./home.html">Beranda</a>
                     <a class="nav-link" href="./produkPage.html">Produk</a>
-                    <a class="btn btn-outline-success" href="./loginPage.html">Login</a>
+                    <a class="nav-link" href="./keranjangPage.html"><i
+                            class="fa-solid fa-cart-shopping text-success"></i></a>
+                    <div class="vr"></div>
+                    <div class="nav-item dropdown ps-3">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Ahmad Fulan
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./index.html">Keluar Akun</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </nav>
     <!--navbar -->
 
-    <!-- hero -->
-    <section id="hero">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="konten-hero">
-                        <h1>Pilihan Tepat untuk <span class="text-success">Hidup Sehat</span></h1>
-                        <p class="pt-3 pb-3">Nikmati berbagai pilihan makanan organik terbaik yang tidak hanya sehat
-                            tetapi juga lezat. Temukan manfaat kesehatan untuk Anda dan keluarga.</p>
-                        <a class="btn btn-outline-success" href="./produkPage.html">Mulai Belanja</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- hero -->
-
     <!-- produk -->
     <section id="produk">
         <div class="container">
-            <!-- Produk Terbaik -->
             <div class="row">
                 <div class="col-lg-6">
-                    <h4>Produk Terbaik</h4>
+                    <h4>Semua Produk</h4>
                 </div>
                 <div class="col-lg-6">
-                    <a class="more" href="./produkPage.html">Lihat Semua Produk <i
-                            class="fa-solid fa-arrow-right ps-2"></i></a>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="cth. bayam, tomat, etc." aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
                 </div>
             </div>
 
@@ -121,20 +116,8 @@
                         </div>
                     </a>
                 </div>
-
             </div>
-
-            <!-- Produk Lainnya -->
-            <div class="row mt-5">
-                <div class="col-lg-6">
-                    <h4>Produk Lainnya</h4>
-                </div>
-                <div class="col-lg-6">
-                    <a class="more" href="./produkPage.html">Lihat Semua Produk <i
-                            class="fa-solid fa-arrow-right ps-2"></i></a>
-                </div>
-            </div>
-
+            
             <div class="row mt-3">
                 <div class="col-lg-3">
                     <a class="card card-produk" href="./detailPage.html">
@@ -188,22 +171,6 @@
         </div>
     </section>
     <!-- produk -->
-
-    <!-- cta -->
-    <section id="cta">
-        <div class="container bg-cta">
-            <div class="row text-center">
-                <div class="col">
-                    <h6>100% ASLI & BERKUALITAS</h6>
-                    <h1>Belanja Sekarang Untuk Aneka <br>
-                        Sayuran & Buah Segar</h1>
-                    <p>Hanya Produk Organik Berkualitas Tinggi Untuk Anda</p>
-                    <a class="btn btn-success" href="produkPage.html">Mulai Belanja</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- cta -->
 
     <!-- footer -->
     <footer>

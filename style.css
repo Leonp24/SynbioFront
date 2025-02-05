@@ -98,11 +98,38 @@
     justify-content: center;
     text-align: center;
     align-items: center;
-    background-image: url(./Assets/Login.jpg);
-    background-size: cover;
+    width: 100%;
+    background-image: url(./assets/Login.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.204);
+}
+
+#login form label {
+    text-align: start;
+    padding-top: 10px;
+}
+
+#login img {
+    width: 120px;
+    margin-bottom: 20px;
 }
 
 /* Login */
+
+/* detail produk */
+#detail {
+    margin-top: 100px;
+}
+
+#detail .foto-produk {
+    height: 350px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: center;
+}
+/* detail produk */
 
 /* footer */
 footer {
