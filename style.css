@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
 /* sementara */
-body {
-    /* margin-bottom: 500px; */
-}
+/* body {
+    margin-bottom: 500px;
+} */
 
 * {
     font-family: dm sans;
@@ -25,11 +25,12 @@ body {
 .navbar .navbar-nav .btn {
     width: 120px;
 }
+
 /* navbar */
 
 /* hero */
 #hero {
-    background-image: url(./Assets/banner.jpg);
+    background-image: url(./Assets/Gambar1.jpg);
     background-size: cover;
     height: 600px;
     color: white;
@@ -40,6 +41,7 @@ body {
 #hero .konten-hero h1 {
     font-size: 60px;
 }
+
 /* hero */
 
 /* produk */
@@ -71,11 +73,11 @@ body {
 /* cta */
 #cta {
     margin-top: 100px;
-    color: white;      
+    color: white;
 }
 
 #cta .bg-cta {
-    background-image: url(./Assets/Gambar1.jpg);
+    background-image: url(./Assets/Banner.jpg);
     background-size: cover;
     height: 500px;
     border-radius: 20px;
@@ -87,10 +89,11 @@ body {
 #cta h1 {
     font-size: 50px;
 }
+
 /* cta */
 
 /* Login */
-#login .bg-login{
+#login .bg-login {
     display: flex;
     justify-content: center;
     text-align: center;
@@ -98,6 +101,7 @@ body {
     background-image: url(./Assets/Login.jpg);
     background-size: cover;
 }
+
 /* Login */
 
 /* footer */
@@ -105,4 +109,5 @@ footer {
     margin-top: 100px;
     text-align: center;
 }
+
 /* footer */
