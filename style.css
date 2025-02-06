@@ -112,7 +112,6 @@
 }
 
 #login form label {
-    text-align: start;
     padding-top: 10px;
 }
 
@@ -139,7 +138,6 @@
 }
 
 #register form label {
-    text-align: start;
     padding-top: 10px;
 }
 
@@ -148,7 +146,7 @@
     margin-bottom: 20px;
 }
 
-/* Login */
+/* Register */
 
 /* detail produk */
 #detail {
