@@ -201,6 +201,7 @@
 #payment img {
     width: 30%;
 }
+
 /* payment */
 
 /* success */
@@ -211,6 +212,7 @@
 #success img {
     width: 50%;
 }
+
 /* success */
 
 /* footer */
@@ -220,3 +222,44 @@ footer {
 }
 
 /* footer */
+
+
+/* mobile style */
+@media (max-width: 768px) {
+
+    /* navbar */
+    .navbar .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar .navbar-nav .btn {
+        width: 120px;
+        margin: auto;
+    }
+
+    .navbar .navbar-nav .dropdown {
+        margin-left: 0;
+    }
+
+    .navbar .navbar-nav .vr {
+        display: none;
+    }
+
+    /* navbar */
+
+    /* Login */
+    #login .bg-login {
+        width: 100%;
+    }
+
+    #login .custom-width {
+        width: 100%;
+    }
+    /* Login */
+
+    /* Register */
+    #register .bg-register {
+        width: 100%;
+    }
+    /* Register */
+}
